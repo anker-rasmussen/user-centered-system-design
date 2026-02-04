@@ -67,3 +67,117 @@ This design is highly problematic for some countries - as in the video this is p
 What would be better?
 
 I like the idea of drawing your flag to select which country you're from. It's a cute way to say introduce yourself, where this would be printed on badges and people would have to guess where you're from based on your rendering of your flag. The way I'd fix this is give an RGB color picker with some base selections, and increase the pixel density of the drawing board. I'd also add configuration for special shaped flags (fx. Nepal again).
+
+
+# Tutorial 2
+
+## City Nav observation activity
+
+### Areas
+- Library
+- Foyer
+- Basement of engineering
+- City cafe
+- Canteen
+
+Pick two!
+
+### Note taking template
+
+Goetz & LeCompte framework
+
+- Who is present?
+- What is their role?
+- What is happening?
+- When does the activity occur?
+- Where is it happening?
+- Why is it happening?
+- How is the activity organized?
+
+### Debrief
+
+- Report findings, reflect
+- Observer
+- Observation decisions (why did you use a framework? what did you look for and record?)
+- Results
+- Reflections
+
+
+### Library
+
+- Who is present?
+    - Various students from different disciplines
+    - Library Staff
+    - University staff
+    - Cleaner (s?)
+- Roles (inorder)
+    - Students are here to socialise, take notes, compare ideas, and watch their lectures/tutorials
+    - Library staff assist students, put books back, and aid with navigation
+    - University staff (saw one, was checking out a textbook)
+    - Cleaner was cleaning.
+- What is happening
+    - Some students are talking amongst themselves
+    - Some students are looking at their laptops, completely engrossed in the content on their devices.
+    - Some students are on their phones
+    - Some students are looking harried and stressed, hand on forehead
+    - Some students look happy and joyful
+    - Professor looks hurried
+    - Library staff look calm, looking at their computers or aiding students
+    - Students are walking around, entering or exiting the library. 
+    - Library staff is counting students in the library
+- Where is it happening?
+    - In the library foyer - students are performing these various tasks
+    - Some of the things that are occuring are happening behind the library helpdesk.
+- Why is it happening?
+    - Students come to the library to study as it's one of the locations where people are quiet and respect each others' personal space
+    - Students talk about their course in the library because it's a place of study
+    - Students also study in the library because of the atmosphere/environment that it provides.
+    - Staff are performing their jobs
+- How is the activity organized?
+    - There's not really any direct structure to the library.
+    - The main structure comes from the students adhering to social/societal norms about being quiet and repsectful to others in the library.
+    - The other structure comes from the librarians, organizing, cataloging and aiding students with their queries.
+
+### ELG Drysdale
+
+- Who is present?
+    - Students
+    - Security
+    - First aid practitioner
+- Roles (inorder)
+    - Students are studying, one student is visibly distressed
+    - Security is aiding first aider
+    - First aider is aiding the distressed student
+- What is happening
+    - Students are working on their laptops
+    - Some students are socializing
+    - Some students are on their phones or tablets
+    - Some students are going to classes. 
+    - First aider is talking with the student
+    - Security has left to acquire something for low blood sugar for the distressed student
+- Where is it happening?
+    - Drysdale ELG area, on the benches.
+- Why is it happening?
+    - Distressed student seems to be affected by low blood sugar (possibly prediabetic)
+    - Other students are engrossed in their own work and conversations, or heading to their classes; normal human behavior in a university
+- How is the activity organized?
+    - There's no strict structure to what is happening here
+    - First aider and security are performing their jobs
+    - Students are performing normal university behaviors (Socializing, studying, and heading to classes.)
+
+### Reflection
+
+My main takeaway would be that the areas I chose are purpose built for what the people in these locations were doing at the time of observation. An interesting tidbit of conversation I heard during observing ELG in Drysdale was the first aider asking security where the closest vending machine was - as the student that was distressed seemed to have low blood sugar. This would be an excellent feature to implement within the application.
+
+The technique seemed a little bruteforce- maybe another framework would've been better to analyse and assess what was happening. I picked areas nearby the lecture room that I knew would be somewhat quiet so as to minimise my walking, not really thinking about picking the *perfect* location. I was more focused on what was happening rather than *why* things were happening - second order thinking was laid by the wayside for this observation. 
+
+I think it's quite hard to get into someone's shoes, and think about *why* they are doing what they're doing; that's not something I actively thought about while observing, rather just attempting to put pen to paper and accurately describe what was happening around me.
+
+
+
+### Reflection prompts
+- Takeaways?
+- Thoughts in general?
+- Thoughts about decisions
+- Challenges?
+- Things you'd do differently or be mindful of?
