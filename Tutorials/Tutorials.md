@@ -181,3 +181,89 @@ I think it's quite hard to get into someone's shoes, and think about *why* they 
 - Thoughts about decisions
 - Challenges?
 - Things you'd do differently or be mindful of?
+
+
+
+# Tutorial 3
+## Interview design tutorial
+### Interview goals?
+I would like to gain understanding of how often people eat at uni.
+
+Exploring users current decisionmaking regarding food (eating habits, cuisines)
+
+Understand users technology use in relation to eating food.
+
+### Topic headings
+1. Technology and food
+2. Eating habits
+3. Difference between uni and elsewhere
+
+### Primary questions:
+1. Technology and food
+    - Do you use your phone or computer to choose what to eat (deliveroo/just eat)?
+        - If yes:
+        - How often?
+        - Rate the experience 1-10
+        - If no:
+        - Why not? What kind of friction is there?
+    - Do you use your phone to find new places to eat (google maps)?
+        - If yes:
+        - How often?
+        - Rate the experience 1-10
+        - If no:
+        - Why not? What kind of friction is there?
+2. Eating habits
+    - Do you normally cook for yourself, buy food from restaurants/stalls, or order it using an app? 
+        - Which would you say is the one that you do the most often?
+        - What are your biggest complaints about it? (most often)
+3. Difference between uni and elsewhere
+    - When you're on campus, do you eat food from the canteens?
+        - If yes:
+        - Are you aware of all the locations on campus that sell food?
+        - If no:
+        - Do you eat on campus whatsoever? 
+        - How do you get the food?
+    - Is it easy to get food on campus if you're hungry? 
+        - What about compared to when you're at home?
+        - Is there a marked difference between the two?
+
+### Intro script
+Hiya, I'm Anker. Today we're going to be having a chat about food and drinks on the City University campus. We're gonna talk a little about your experiences on campus regarding eating, drinking, and potential pain points you may or may not have had. The purpose of the interview is to understand your experience eating on campus to support development of a new application "CampusDine". Within this interview I'm going to ask you a set of questions, and you're within your rights to decline answering them, or ask for further clarification.
+
+We'll start with something easy:
+
+Do you have any food allergies or foods that you can't eat?
+If yes: Is it difficult to find out if a place may or may not serve this?
+
+Do you track your calories and macronutrients?
+
+Leads to the full questions:
+
+    - Do you normally cook for yourself, buy food from restaurants/stalls, or order it using an app? 
+        - Which would you say is the one that you do the most often?
+        - What are your biggest complaints about it? (most often)
+    - Do you use your phone or computer to choose what to eat (deliveroo/just eat)?
+        - If yes:
+        - How often?
+        - Rate the experience 1-10
+        - If no:
+        - Why not? What kind of friction is there?
+    - Do you use your phone to find new places to eat (google maps)?
+        - If yes:
+        - How often?
+        - Rate the experience 1-10
+        - If no:
+        - Why not? What kind of friction is there?
+    - Is there friction when looking for macronutrients/allergens on these apps?
+        - note. only if they have answered yes to the easy allergies/macros questions.
+    - When you're on campus, do you eat food from the canteens?
+        - If yes:
+        - Are you aware of all the locations on campus that sell food?
+        - If no:
+        - Do you eat on campus whatsoever? 
+        - How do you get the food?
+    - Is it easy to get food on campus if you're hungry? 
+        - What about compared to when you're at home?
+        - Is there a marked difference between the two?
+
+### Pilot and discuss & reflect

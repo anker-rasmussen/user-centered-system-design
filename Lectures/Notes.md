@@ -236,3 +236,93 @@ Empathize -> Define -> Ideate -> Prototype -> Test
 | **Video** | • Visual and audio data<br>• Attention-light<br>• Rich detail for later review | Intrusive<br>• Same disadvantages as audio recording |
 
 
+
+## Session 3
+### Query techinques
+Interviews
+Questionnaires
+
+Self reporting techniques: Researcher asks questiosns and records participants responses.
+
+Questions attempt to elicit
+ - Facts
+ - Behavior
+ - Beliefs/attitudes/opinions
+
+ Humans are good at facts. Normally these are easy to answer
+
+ Behavior is a little harder for people to answer. Unreliable narrator
+
+ Opinons/beliefs/attitudes are subjective and differ from person to person
+
+ Answers may not truly reflect what the person believes (they may under/overreport).
+
+ Questions can be seen as threatening, leading participants to report incorrectly.
+
+When designing an interview/questionnaire, be clear about your purpose.
+
+What do you want to know? Why? What can you ask? Why do you want or need that info?
+
+For any question, ask "WHY do I want to know this?"
+
+Be very specific:
+
+How do you use the city website? <- BAD
+
+What did you do on the City website the last time you used it? <- GOOD!
+
+Don't bloat with unnecessary questions!
+
+Use simple and unambiguous phrasing and vocabulary, and avoid asking multiple questions (conjoined).
+
+Avoid leading words and loaded phrasing.
+
+Start with easy questions that reassure them.
+
+But make sure to ask the important questions early enough.
+
+
+### Open ended or Closed ended questions?
+
+- Open ended: No restrictions in response
+- Closed ended (or fixed alternative); users must pick one of several
+- Scale. Variant of closed ended where respondent must respond on a pre-determined scale (rating to the extent they agree/disagree with something)
+
+| | Open-ended questions | Closed-ended questions |
+| :--- | :--- | :--- |
+| **Detail** | Good for eliciting rich detail | Answers aren't very rich in detail |
+| **Flexibility** | Can reveal unanticipated info | Require certainty about the range of possible answers — inflexible |
+| **Early design** | Very useful in early design | Not so useful in early stages of design |
+| **Evaluation** | Can also be useful in evaluation | More useful in evaluation, e.g. for rating or measuring things |
+| **Comparison** | | Useful for comparison |
+| **Effort** | Require more effort to answer — can be problematic in a questionnaire | |
+| **Analysis** | Data captured is more difficult to analyse | Use simple statistics to analyse |
+
+### Interviews
+
+Are a purposeful conversation. Initiated by the interviewer to obtain research-relevant information. Useful for obtaining difficult information not easily accessible via questionnaires. Helpful in doing follow ups to understand a participant's mentality. Responses generate rich quality data.
+
+Planning and conducting an interviewer requires some structure. Create a logical flow, and open with a generic open question.
+
+Ask straightforward, succinct, non-jargon, non-threatening questions.
+
+Avoid leading questions or cues to desired answers. 
+
+Seek specific answers.
+
+Sampling (who is target population?)
+Sample size! (quantitative; more is better), but greater variation, the more you have to ask
+
+How will you find the right people (not asking will result in misleading data!)
+
+### Recipe
+- What is needed (goal)?
+- Who?
+- What method?
+- Conduct a search for existing questions.
+- Draft new questions
+- Put questions in sequence
+- Format the questionnaire
+- Get peers to evaluate
+- Pilot (get people to complete while thinking out loud)
+- Fix (iterate) and release!
