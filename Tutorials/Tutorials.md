@@ -185,7 +185,7 @@ I think it's quite hard to get into someone's shoes, and think about *why* they 
 
 
 # Tutorial 3
-## Interview design tutorial
+## Interview design tutorial: Note, was handout.
 ### Interview goals?
 I would like to gain understanding of how often people eat at uni.
 
@@ -265,5 +265,30 @@ Leads to the full questions:
     - Is it easy to get food on campus if you're hungry? 
         - What about compared to when you're at home?
         - Is there a marked difference between the two?
+
+
+# Tutorial 4
+Worst possible idea
+Design a digital technology to help older people remember to take their medication
+
+Seperate icon for each medication they should take, manually input if taken (date + time) into the field. Only reveal when actually clicking on the selected pill, and don't reveal time to next pill. So each time they open the app they have to manually click on each pill they *should* take. No visual indicator once a pill is taken, nor if it needs to be taken. 
+
+- Why is it bad?
+User has to *dig* through menus.
+
+How to improve it?
+
+Proactive messaging; ping 15 mins before, then ping on actual consumption time.
+When opening app, color code medication based on if it's been taken within the app, with different colors i.e. Green(taken), Yellow (Need to be taken, but not soon), Orange (take pill), Red (overdue to take pill)
+
+When taking a pill, tap to change the state of the pill (if it was taken or not).
+
+Maybe an XP system (positive gameloop) to help build habits.
+
+
+When registering a new medication, require a prescription letter and GP signature, and the pill will only be registered until the end date of the prescription. After that, it is removed. So recurring prescriptions have huge friction, especially if refilled every week/two weeks.
+
+Frictionless registry of new medication; take a picture of the prescription and it'll automatically setup alarms and monitoring for pills. Uses computervision model to distill, and gives user chance to confirm. 
+
 
 ### Pilot and discuss & reflect
