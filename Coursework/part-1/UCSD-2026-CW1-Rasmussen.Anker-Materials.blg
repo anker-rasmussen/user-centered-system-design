@@ -1,0 +1,9 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'UCSD-2026-CW1-Rasmussen.Anker-Materials.blg'
+[59] biber:342> INFO - === Sat Mar  7, 2026, 12:57:18
+[73] Biber.pm:421> INFO - Reading 'UCSD-2026-CW1-Rasmussen.Anker-Materials.bcf'
+[130] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[145] bbl.pm:676> INFO - Writing 'UCSD-2026-CW1-Rasmussen.Anker-Materials.bbl' with encoding 'UTF-8'
+[146] bbl.pm:779> INFO - Output to UCSD-2026-CW1-Rasmussen.Anker-Materials.bbl
+[147] Biber.pm:132> WARN - The file 'UCSD-2026-CW1-Rasmussen.Anker-Materials.bcf' does not contain any citations!
+[147] Biber.pm:134> INFO - WARNINGS: 1

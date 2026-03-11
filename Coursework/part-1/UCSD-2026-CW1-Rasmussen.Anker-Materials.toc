@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Presentation Slide Deck}{1}{section.1}%
+\contentsline {section}{\numberline {2}Research Materials}{9}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Prescreening Questionnaire}{9}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Participant Information Sheet}{11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Informed Consent Form Template}{16}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Interview Guide/Script}{19}{subsection.2.4}%
+\contentsline {paragraph}{Topic 1: Planning the study time}{19}{section*.7}%
+\contentsline {paragraph}{Topic 2: Study environment}{20}{section*.8}%
+\contentsline {paragraph}{Topic 3: The actual study session}{21}{section*.9}%
+\contentsline {section}{\numberline {A}GenAI Usage Log}{23}{appendix.A}%

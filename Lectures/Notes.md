@@ -782,6 +782,203 @@ These can then be used in brainstorming and other ideation sessions. A good way 
 ### Coursework notes
 Only make one persona.
 
+## Session 6
+### Conceptualising and contextualising
+
+### Crazy 8s (rapid ideation)
+
+A core Design Sprint method, part of the Sketch stage. A rapid sketching exercise: 8 rough sketches in 8 minutes (1 minute per sketch). Usually preceded by warm-up activities.
+
+Why do it?
+- Generates lots of ideas at a rapid pace
+- First ideas typically aren't the best -- this forces you to think beyond those
+- 1 minute per sketch isn't enough time to get bogged down in detail or perfection
+
+How to do it:
+1. Each person has a piece of paper folded into 8 sections
+2. Set the timer for 8 minutes
+3. Each person sketches one idea in each section
+4. When the timer goes off, put pens down
+
+After Crazy 8s:
+- Ideas are reviewed to decide which to explore/develop further
+- Shortlisted ideas can be progressed (more detail, scenarios, storyboards, future journey maps)
+- Or do another round of Crazy 8s using top ideas as a starting point
+
+### Evaluating early design ideas
+
+Key questions:
+- How do we know if our designs are useful?
+- How do we choose between alternative ideas?
+- How do we know if our designs have good usability?
+- How do we know if they provide a positive user experience?
+- How do we know if we need to make changes and what changes?
+- How can we iterate in our design work?
+
+Evaluation sits at every stage of the UCD process: evaluate existing systems (user research), evaluate ideas or early design prototypes (conceptual design), evaluate design prototypes (detailed design).
+
+#### Purposes of evaluation
+- Get early feedback on design concepts
+- Decide between design options
+- Check that users can use the product and whether they like it
+- Identify and fix usability problems *before* production or release
+- Identify and fix usability problems in existing products
+- Assess competitor systems
+- Focus on real problems -- not our intuition about what is good or bad
+
+#### What can we evaluate?
+- Sketches
+- Paper prototypes
+- Clickable digital prototypes
+- Physical prototypes
+- Wireframes
+- Existing systems
+- Competitor systems
+
+#### How can we evaluate?
+- Usability testing
+- Expert evaluations (e.g. Heuristic Evaluation)
+- Interviews
+- Usability/UX questionnaires
+- Design reviews and design critique
+
+### Evaluating ideas (from Crazy 8s)
+
+How do you decide which ideas to progress?
+1. Each person presents their top 2 or 3 ideas back to the group
+2. Vote on the best, e.g. using 'dot voting' (sticky dots)
+3. See which ideas are most popular
+- Then do another round of Crazy 8s or progress the ideas into more detailed designs
+
+### Product Triad: Desirable, Viable, Feasible
+
+- **Desirable (user)** -- useful and usable; alignment with user needs and desires
+- **Feasible (technology)** -- budget, timeline, technical constraints
+- **Viable (business)** -- financially sustainable in the longer term
+
+The sweet spot is at the intersection of all three.
+
+### Concept testing
+
+- Present an idea, prototype, or concept to users to gather feedback
+- Test concepts with users to validate (or abandon) ideas
+- Get feedback on perceived value, usability flaws
+- Use approaches such as surveys, focus groups, interviews
+- This is *not* about testing for usability issues
+
+### Design critique
+
+A collaborative approach to reviewing ideas and designs. Can be undertaken throughout the design process; valuable in early design.
+
+How?
+- Presenter shares a design
+- Critics give constructive feedback
+- Facilitator manages the session
+
+### Contextualising concepts
+
+Conceptual design as envisionment -- envisioning a world in which the new interactive system or experience exists. Concerned with the "big picture":
+- Overall paradigm or platform (e.g. web, mobile, AR/VR, voice)
+- Main concepts, objects, and actions within the system
+- Key activities and workflows that will be supported
+- The division of responsibility between user and system
+
+Contextualising involves imagining use in context:
+- How might people interact with the system in the real world?
+- How does interaction unfold over time?
+
+| Dimension | Question |
+| :--- | :--- |
+| **User** | Who is involved / using the system? |
+| **Context** | Where and when does the interaction happen? |
+| **Activity** | What are they trying to achieve? |
+| **Interaction / Journey** | How does the interaction unfold over time? |
+
+Techniques for contextualising: scenarios, storyboards, future user journeys.
+
+### Scenarios
+
+A scenario is an *"informal narrative description"* of a user's task -- one typical story (John M. Carroll, 2000).
+
+> "Scenarios are stories. They consist of a setting, or situation state, one or more actors with personal motivations, knowledge, and capabilities, and various tools and objects that the actors encounter and manipulate. The scenario describes a sequence of actions and events that lead to an outcome. These actions and events are related in a usage context that includes the goals, plans, and reactions of the people taking part in the episode." -- Rosson & Carroll (2012)
+
+Key characteristics:
+- Captures a task in user's language
+- An informal, personalised, context-rich account of users, events, artefacts and environments
+- Typically focuses on one persona
+- Either current situations or (more likely) envisioned future situations
+- Summarises user journeys; can have a collection of scenarios that encapsulate entire interaction with system
+- Contains important concepts and actions
+
+Scenarios should:
+- Situate the use of the system
+- Capture the user needs and goals
+- Not dwell on unnecessary details of how the system will work (though some representation of technology is often necessary)
+- Focus on how the system supports users in context
+
+### Storyboards
+
+An alternative representation of a user journey, but in visual form. Usually focuses on the user experience, not details of the design.
+
+A storyboard contains:
+- A sequence of panels or cells, each representing a single step in the user's journey
+- Captions to explain the content of each panel
+- Speech / thought bubbles to show users' thoughts / motivations
+- A clear 'beginning' and 'end'
+
+Artistic quality is not important!
+
+Storyboards in conceptual design:
+- Similar to scenarios but in visual form -- very compact way of showing interaction in context
+- Highly creative; good for communicating key aspects of system
+- Very similar to storyboarding in film
+- A series of panels showing the major interaction moments with the system
+- Show important concepts, actions, and context of use
+- Use to expose proposed features of the system, showing their use in context
+
+Developing a storyboard:
+1. Start with a particular persona who has a particular goal (gives overall purpose; different personas will behave differently)
+2. Work out the scenario or journey -- decide on a starting point and ending point, work out key steps to illustrate between them, decide on the point of view for each step/frame
+3. Create a panel with a caption and dialogue / thought bubbles for each step
+4. Try a storyboard for one persona, then see if the story varies for others
+5. Explore different journeys and different digital touchpoints
+
+### Future user journey maps
+
+Similar to the current ('as-is') user journey maps from Session 4, BUT instead of describing the *current* experience discovered through research, they describe a *possible future experience enabled by a new design*.
+
+Future journey maps:
+- Show how an experience could unfold with the new system
+- Explore stages of interaction over time
+- Help designers think about how a design changes the overall experience
+
+| Current journey map | Future journey map |
+| :--- | :--- |
+| Describes the existing experience | Describes a possible future experience |
+| Based on user research | Based on design ideas / concepts |
+| Identifies problems and opportunities | Explores how the design could improve the experience |
+
+You can use a current journey map as a starting point / inspiration for a future journey map -- to explore how things might change (i.e. improve) as a result of the new design / system.
+
+### Mental models
+
+Mental models are representations of the external world that people construct in their minds to help them understand how things work and what to do in current and future situations.
+
+> "People create mental models of themselves, others, the environment and the things with which they interact. These are conceptual models, formed through experience, training and instruction. These models serve as guides to help achieve our goals and in understanding the world." -- Don Norman (2013), *The Design of Everyday Things*
+
+Mental models and interaction design:
+- Users need to understand how to interact with complex (and not so complex) digital technologies
+- *"Most people have incomplete, unstable, easily confusable and superstitious mental models of systems and devices"* (Norman, 1983)
+- Interaction problems arise when a person's mental model differs from the reality in ways that impact their interaction with a system
+- Users may have a mental model of the task they want to do (particularly if they have done it before with a different technology)
+- But other users may have different mental models!
+- Part of the challenge of designing good user interfaces is to design for lots of users with different mental models
+
+#### Norman's three models
+- **Designer's model** -- the designer's internal conception of the product
+- **System model/image** -- what has been created that can be perceived (product + documentation)
+- **User's model** -- the user's conception (mental model) of the product, formed from interacting with the system image
+
 
 ---
 
@@ -791,3 +988,4 @@ Only make one persona.
 | :--- | :--- | :--- | :--- |
 | 2025-02-25 | Claude Opus 4.6 (Claude Code CLI) | "Take a look in the lecture slides and tidy up my notes.md" / "if you don't like the formatting you can fix it too" / "and then write all the prompts and what you did as a footnote/appendix" | Read all 5 lecture slide PDFs and cross-referenced with existing Notes.md. Fixed typos (Desigining, concpetual, eachother, fidning, seperate, techinques, questiosns, Triangluation). Enriched Session 4 notes with missing slide content (types of data, expanded quantitative/qualitative analysis, affinity mapping process steps, empathy map uses, user journey map detail). Added complete Session 5 notes from Lecture 5 slides (PoV statements, requirements, user stories, conceptual design, ideation, brainstorming, HMW questions). Improved formatting consistency throughout. Added this GenAI usage log. |
 | 2026-02-25 | Claude Opus 4.6 (Claude Code CLI) | "did you check lectures 1 through 4 and my notes?" (continuation of above task) | Detailed cross-reference of Lectures 1-4 slides against Notes.md. **Session 1**: Fixed typo ("transmission, display, or transmission" → "transmission, display, storage, or transformation"), added ACM SIGCHI HCI definition, interdisciplinary fields, 13 interaction paradigms, interaction type definitions, technology suitability factors, IxD definitions (Preece/Sharp/Rogers, Benyon/Turner), Garrett's 5 Planes of UX. **Session 2**: Added Gould & Lewis (1985) 3 key principles, Lean UX framework, 5 principles of UCD, common design techniques list, formative vs summative evaluation. **Session 3**: Added over/under-reporting examples, interview types (structured/semi-structured/unstructured), planning and conducting interviews, tips for effective interviewing, questionnaire details (recall vs recognition), measurement scales (nominal/ordinal/interval/ratio), questionnaire analysis methods, validated questionnaires. **Session 4**: Added UJM data sources, UJM pros/cons table, persona contents detail, persona goals types (experience/end/life from Alan Cooper), using personas (3 uses), persona watchpoints. |
+| 2026-03-11 | Claude Opus 4.6 (Claude Code CLI) | "Distil lecture6 into my notes." | Read Lecture 6 PDF (55 slides) and distilled into Session 6 notes. Added: Crazy 8s (what/why/how/what next), evaluating early design ideas (purposes, what/how to evaluate, evaluating ideas from Crazy 8s), Product Triad (desirable/viable/feasible), concept testing, design critique, contextualising concepts (envisionment, contextualising interaction table), scenarios (Carroll definition, Rosson & Carroll quote, characteristics, contextualising use guidelines), storyboards (contents, role in conceptual design, developing a storyboard steps), future user journey maps (vs current journey maps comparison table), mental models (Norman definitions and quotes, mental models in interaction design, Norman's three models: designer's/system/user's). |

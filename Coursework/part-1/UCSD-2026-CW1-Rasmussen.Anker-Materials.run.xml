@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>pt1.bcf</file>
+      <file>UCSD-2026-CW1-Rasmussen.Anker-Materials.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>pt1.bbl</file>
+      <file>UCSD-2026-CW1-Rasmussen.Anker-Materials.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -64,19 +64,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>pt1</infile>
+      <infile>UCSD-2026-CW1-Rasmussen.Anker-Materials</infile>
     </cmdline>
     <input>
-      <file>pt1.bcf</file>
+      <file>UCSD-2026-CW1-Rasmussen.Anker-Materials.bcf</file>
     </input>
     <output>
-      <file>pt1.bbl</file>
+      <file>UCSD-2026-CW1-Rasmussen.Anker-Materials.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>pt1.bbl</file>
+      <file>UCSD-2026-CW1-Rasmussen.Anker-Materials.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>pt1.bcf</file>
+      <file>UCSD-2026-CW1-Rasmussen.Anker-Materials.bcf</file>
     </requires>
     <requires type="editable">
       <file>references.bib</file>
