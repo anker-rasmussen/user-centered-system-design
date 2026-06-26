@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1700" />
+  <title>StudyBuddy · Wireframes (CW2 §2)</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    /* Local FAB to open the tweaks panel (no Anthropic host present) */
+    .tweaks-fab {
+      position: fixed; right: 16px; bottom: 16px;
+      z-index: 2147483645;
+      width: 44px; height: 44px;
+      border-radius: 12px;
+      background: #18181b; color: #fff;
+      border: 0;
+      box-shadow: 0 6px 20px -6px rgba(0,0,0,0.35), 0 1px 3px rgba(0,0,0,0.2);
+      display: inline-flex; align-items: center; justify-content: center;
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 16px; font-weight: 600;
+      cursor: pointer;
+    }
+    .tweaks-fab:hover { background: #27272a; }
+    .tweaks-fab[hidden] { display: none; }
+
+    /* Hide chrome / pins / leaders / annot via attributes set by tweaks */
+    body[data-show-pins="0"]    .pin     { display: none !important; }
+    body[data-show-leaders="0"] .leaders { display: none !important; }
+    body[data-show-annot="0"]   .annot   { display: none !important; }
+    body[data-show-callouts="0"] .callouts { display: none !important; }
+
+    /* Density modes */
+    body[data-density="compact"] .a4     { transform: scale(0.85); transform-origin: top center; }
+    body[data-density="comfy"]   .doc    { gap: 56px; }
+  </style>
+</head>
+<body>
+  <div class="doc">
+    <div class="doc-header">
+      <h1>StudyBuddy</h1>
+      <span class="meta">CW2 · §2 · Anker Rasmussen</span>
+    </div>
+    <div id="root"></div>
+  </div>
+
+  <!-- React + Babel via CDN (dev-only standalone build) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Components, in load order -->
+  <script type="text/babel" data-presets="react" src="tweaks-panel.jsx"></script>
+  <script type="text/babel" data-presets="react" src="screens.jsx"></script>
+  <script type="text/babel" data-presets="react" src="pages.jsx"></script>
+
+  <!-- App: wire each PAGE config to its screen component and render -->
+  <script type="text/babel" data-presets="react">
+    const screenFor = (index, variants) => {
+      switch (index) {
+        case 1: return <ScreenHome       variant={variants.home} />;
+        case 2: return <ScreenBriefing   variant={variants.briefing} />;
+        case 3: return <ScreenEquationPicker />;
+        case 4: return <ScreenStepByStep variant={variants.step} />;
+        case 5: return <ScreenPlan />;
+        case 6: return <ScreenWrapUp />;
+        case 7: return <ScreenCapture    variant={variants.capture} />;
+      }
+    };
+
+    /* Tweak defaults — TweaksPanel persists changes via host postMessage,
+       which is harmless in a plain browser (the messages just go nowhere). */
+    const TWEAK_DEFAULTS = {
+      accent:   '#0d99ff',
+      pin:      '#5b3df5',
+      showPins:     true,
+      showLeaders:  true,
+      showAnnot:    true,
+      showCallouts: true,
+      density:  'regular',
+      // per-screen state pickers — match the `variant` prop on each screen
+      homeState:     'connected',  // connected · empty (first-use)
+      briefingState: 'default',    // default · loading
+      stepState:     'default',    // default · error (unverified step)
+      captureState:  'detecting',  // detecting (only one implemented)
+    };
+
+    function App() {
+      const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
+
+      // Reflect tweak values onto :root + body so existing CSS picks them up
+      React.useEffect(() => {
+        const r = document.documentElement;
+        r.style.setProperty('--accent',     t.accent);
+        r.style.setProperty('--accent-ink', t.accent);
+        r.style.setProperty('--pin',        t.pin);
+        r.style.setProperty('--pin-ink',    t.pin);
+        document.body.dataset.showPins     = t.showPins     ? '1' : '0';
+        document.body.dataset.showLeaders  = t.showLeaders  ? '1' : '0';
+        document.body.dataset.showAnnot    = t.showAnnot    ? '1' : '0';
+        document.body.dataset.showCallouts = t.showCallouts ? '1' : '0';
+        document.body.dataset.density      = t.density;
+      }, [t]);
+
+      const variants = {
+        home:     t.homeState,
+        briefing: t.briefingState,
+        step:     t.stepState,
+        capture:  t.captureState,
+      };
+
+      // Variant key per page index (which slot in `variants` controls the
+      // screen render). Pages without an entry have a single default state.
+      const variantSlot = {1: 'home', 2: 'briefing', 4: 'step', 7: 'capture'};
+
+      return (
+        <>
+          <Cover />
+          {PAGES.flatMap((p) => {
+            // For each page, render every entry in `variantOverrides` as
+            // its own page first, then the default variant last. The
+            // marker sees both states (e.g. Home first-use empty before
+            // Home connected) without needing to toggle the tweaks panel.
+            // Pages with `defaultFirst: true` invert the order (default
+            // page first, then variants) — used where the variant reads
+            // as a deviation from the default rather than a precursor
+            // (e.g. Step-by-step: default → error).
+            const altKeys = Object.keys(p.variantOverrides || {});
+            const slot    = variantSlot[p.index];
+            const renders = [];
+            if (p.defaultFirst) {
+              renders.push({ vKey: '', label: '' });
+              altKeys.forEach((k) => renders.push({ vKey: k, label: k }));
+            } else {
+              altKeys.forEach((k) => renders.push({ vKey: k, label: k }));
+              renders.push({ vKey: '', label: '' });
+            }
+
+            return renders.map(({ vKey, label }) => {
+              const override = vKey ? p.variantOverrides[vKey] : null;
+              const merged   = override ? { ...p, ...override } : p;
+              const renderVariants = { ...variants };
+              if (slot && vKey) renderVariants[slot] = vKey;
+              return (
+                <Page
+                  key={`${p.index}-${label || 'default'}`}
+                  {...merged}
+                  screen={screenFor(p.index, renderVariants)}
+                />
+              );
+            });
+          })}
+
+          <TweaksPanel title="Wireframe tweaks">
+            <TweakSection label="Screen states" />
+            <TweakRadio label="Home"          value={t.homeState}
+                        options={['connected', 'empty']}
+                        onChange={(v) => setTweak('homeState', v)} />
+            <TweakRadio label="Briefing"      value={t.briefingState}
+                        options={['default', 'loading']}
+                        onChange={(v) => setTweak('briefingState', v)} />
+            <TweakRadio label="Step-by-step"  value={t.stepState}
+                        options={['default', 'error']}
+                        onChange={(v) => setTweak('stepState', v)} />
+
+            <TweakSection label="Display" />
+            <TweakToggle label="Show pin tags"      value={t.showPins}     onChange={(v) => setTweak('showPins', v)} />
+            <TweakToggle label="Show leader lines"  value={t.showLeaders}  onChange={(v) => setTweak('showLeaders', v)} />
+            <TweakToggle label="Show callout cards" value={t.showCallouts} onChange={(v) => setTweak('showCallouts', v)} />
+            <TweakToggle label="Show annotation panel" value={t.showAnnot} onChange={(v) => setTweak('showAnnot', v)} />
+
+            <TweakSection label="Layout" />
+            <TweakRadio label="Density" value={t.density}
+                        options={['compact', 'regular', 'comfy']}
+                        onChange={(v) => setTweak('density', v)} />
+
+            <TweakSection label="Theme" />
+            <TweakColor label="Accent"     value={t.accent} onChange={(v) => setTweak('accent', v)} />
+            <TweakColor label="Pin colour" value={t.pin}    onChange={(v) => setTweak('pin', v)} />
+          </TweaksPanel>
+        </>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+
+    /* Floating button to open the panel locally (no host = no auto-open). */
+    const fab = document.createElement('button');
+    fab.className = 'tweaks-fab';
+    fab.textContent = '✎';
+    fab.title = 'Open tweaks panel';
+    fab.onclick = () => {
+      window.postMessage({ type: '__activate_edit_mode' }, '*');
+      fab.hidden = true;
+    };
+    document.body.appendChild(fab);
+    window.addEventListener('message', (e) => {
+      if (e?.data?.type === '__edit_mode_dismissed' || e?.data?.type === '__deactivate_edit_mode') {
+        fab.hidden = false;
+      }
+    });
+  </script>
+</body>
+</html>
