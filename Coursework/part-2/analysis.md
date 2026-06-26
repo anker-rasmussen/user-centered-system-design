@@ -84,8 +84,8 @@ in person, video recorded with consent and transcribed.
 
 | ID | Walkthrough | Distinguishing characteristic for analysis |
 |---|---|---|
-| P1 | Yes — screen-share at his actual home setup | NotebookLM + Notion user; 8–11 pm fixed evening block |
-| P2 | Yes — physical artefacts to camera (no laptop) | Hand-written notes + wall-plank; refuses evening study |
+| P1 | Yes — screen-share at their actual home setup | NotebookLM + Notion user; 8–11 pm fixed evening block |
+| P2 | Yes — physical artefacts to camera (no laptop) | Hand-written notes + corkboard; refuses evening study |
 | P3 | Verbal scenario walkthrough only — no laptop / artefact | Bedroom-only; late-night study; minimal tooling |
 | P4 | Yes — laptop screen-share walkthrough | Multi-monitor + iPad folders; leaves home for serious work |
 
@@ -112,7 +112,7 @@ into NotebookLM" `[P1, Interview1.md:291]`). Lecture capture as a
 reactive fallback, but its usefulness depends on whether the camera
 shows the board `[P1, Interview1.md:347]`. Group study limited to ad-hoc
 **pre-exam Discord calls** with screen-shared question solving; attends
-few because off-topic chatter and slow pace put him off
+few because off-topic chatter and slow pace put them off
 `[P1, Interview1.md:201–209]`.
 
 Key pain point: tutorial solutions on Moodle give numerical answers
@@ -131,8 +131,8 @@ not viable due to 40–50 min commute `[P2, Interview2.md:181, 189]`.
 
 **Heavy hand-writing practice** with an explicit colour scheme (blue
 body, red highlights, pencil footnotes `[P2, Interview2.md:329]`) and a
-**wall-plank of formulas** next to his PC, used as an ambient retrieval
-cue every time he passes `[P2, Interview2.md:133]`. Two-monitor setup
+**corkboard of formulas** next to their PC, used as an ambient retrieval
+cue every time they pass `[P2, Interview2.md:133]`. Two-monitor setup
 (lecture | tutorial) with a YouTube tab for music
 `[P2, Interview2.md:315]`.
 
@@ -141,7 +141,7 @@ AI used to fill in **procedure** the slides skip, with explicit
 wrong — showing you the right result, but not the right way to get
 there" `[P2, Interview2.md:169]`. Has not heard of NotebookLM
 `[P2, Interview2.md:141]`. Phone-checking is habitual / non-volitional
-`[P2, Interview2.md:217]`. Walks with his mum reset focus
+`[P2, Interview2.md:217]`. Walks with their mum reset focus
 `[P2, Interview2.md:347–355]`.
 
 ### P3 — summary
@@ -272,8 +272,8 @@ so theme clustering in §4 can be traced back to specific quotes.
 | 109 | "after four, in the evening, I refuse to work" | refuses evening study |
 | 117 | "more time for the most difficult… you need to also do the exercises" | difficulty-proportional time |
 | 121 | "spam the exercises until effectively got your walk *(locked it in)*" | spam exercises until locked-in |
-| 121 | "next to my computer I have a panel… plank" | wall-plank formula reference |
-| 133 | "every time I pass, I can just read this and keep getting the context back" | plank as ambient retrieval cue |
+| 121 | "next to my computer I have a panel… corkboard" | corkboard formula reference |
+| 133 | "every time I pass, I can just read this and keep getting the context back" | corkboard as ambient retrieval cue |
 | 137 | "different colours… physics-new… physics… put it together" | colour-coded topic separation |
 | 145 | "We have so many clicks" (Moodle) | Moodle: click friction |
 | 145 | "the lecturers don't organise it the same way, so you need to adapt each time" | lecturer-by-lecturer Moodle inconsistency |
@@ -550,8 +550,8 @@ and physical levers — not willed.**
 `NotebookLM = exam-time tool` (P1) ·
 `NotebookLM discovered accidentally` (P1) ·
 `Moodle: rewrites notes for personal coding` (P2) ·
-`paper-first preference` (P2) · `wall-plank formula reference` (P2) ·
-`plank as ambient retrieval cue` (P2) ·
+`paper-first preference` (P2) · `corkboard formula reference` (P2) ·
+`corkboard as ambient retrieval cue` (P2) ·
 `colour-coded topic separation` (P2) ·
 `handwritten colour scheme` (P2) ·
 `handwritten encoding > digital` (P2) · `hybrid digital + paper` (P2) ·
@@ -665,7 +665,7 @@ room, long commute to campus) so is pinned to one desk
 `[Interview2.md:181, 189]`. They are **temporal** — see the time-of-day
 incompatibility above. They are **physical** — P2's keyboard-aside
 move to break gaming-context bleed `[Interview2.md:233]`, the
-wall-plank as an ambient retrieval cue `[Interview2.md:133]`, P1's
+corkboard as an ambient retrieval cue `[Interview2.md:133]`, P1's
 single earbud as a focus signal `[Interview1.md:153]`, P2 and P4's
 multi-monitor side-by-side requirement `[Interview2.md:315;
 Interview4.md:189–197]`. The dominant non-noise distractions are
@@ -707,7 +707,7 @@ Interview3.md:73; Interview4.md:147]`, but each one builds a separate,
 personal store of synthesised material on top of it. The **forms differ
 radically**: P1 splits Notion (notes) and NotebookLM (exam-time
 quizzes) by purpose `[Interview1.md:129, 291]`; P2 hand-rewrites in a
-deliberate colour scheme and uses a **wall-plank** of formulas as an
+deliberate colour scheme and uses a **corkboard** of formulas as an
 ambient retrieval cue `[Interview2.md:133, 329]`; P4 maintains an iPad
 folder hierarchy of subject → exam → topic
 `[Interview4.md:255]`; P3 downloads ad-hoc and accepts the cost. The
@@ -722,7 +722,7 @@ participants' divergent reactions is that **Moodle is delivery, not a
 study artefact** — the actual revision artefact is built by the student.
 
 > **Pull-quote.** *"Every time I pass, I can just read this and keep
-> getting the context back."* — P2 on his wall-plank
+> getting the context back."* — P2 on their corkboard
 > `[Interview2.md:133]`.
 
 ---
@@ -780,8 +780,8 @@ contribute to multiple themes).
 | F43 | Lecturer-by-lecturer inconsistency in Moodle layout forces re-orientation cost per module | P2 | T5 |
 | F44 | Monolithic uploads (single 300-page PowerPoint) are intimidating and discourage engagement | P2 | T5 |
 | F45 | Drip-release of lecture material prevents look-ahead planning | P4 | T5 |
-| F46 | Each participant builds a personal external memory beside Moodle: Notion (P1), handwritten colour-coded notes + plank (P2), iPad folder hierarchy (P4); P3 downloads ad-hoc | P1, P2, P3, P4 | T5 |
-| F47 | Spatial / ambient cues (the wall-plank) act as passive retrieval prompts | P2 | T5 |
+| F46 | Each participant builds a personal external memory beside Moodle: Notion (P1), handwritten colour-coded notes + corkboard (P2), iPad folder hierarchy (P4); P3 downloads ad-hoc | P1, P2, P3, P4 | T5 |
+| F47 | Spatial / ambient cues (the corkboard) act as passive retrieval prompts | P2 | T5 |
 | F48 | Lab sessions can be a learning blocker for non-content reasons (faulty hardware, weak TA support) | P4 | (out-of-scope for design) |
 | F49 | Lecture capture is only useful when the camera shows the whiteboard | P1 | (out-of-scope for design) |
 
@@ -800,7 +800,7 @@ walkthrough only — included for completeness in §7.4.
 
 ### 7.1 P1 — observed walkthrough
 
-- **Setting.** P1's actual home setup; bedroom desk; he framed it
+- **Setting.** P1's actual home setup; bedroom desk; they framed it
   explicitly as "my actual setup, which I have at home"
   `[Interview1.md:243]`. Time of demonstration: afternoon (within the
   interview slot), but the demonstrated workflow is the one used in
@@ -820,7 +820,7 @@ walkthrough only — included for completeness in §7.4.
   navigated to local files, opened a probability-notes PDF (Bayes'
   theorem content), uploaded it to NotebookLM, generated a quiz, set
   the difficulty `[Interview1.md:303–311]`. Friction: low. The
-  difficulty selector was a feature he had recently noticed
+  difficulty selector was a feature they had recently noticed
   `[Interview1.md:333–337]`.
 - **Tools visible on screen.** Moodle (browser), file system (file
   picker), NotebookLM (browser). Notion was referenced but not opened
@@ -836,7 +836,7 @@ walkthrough only — included for completeness in §7.4.
   - Confirmed NotebookLM is **exam-season only**
     `[Interview1.md:329]`; Notion is term-time.
 - **What was not observed.** No demonstration of the lecture-capture
-  fallback (mentioned verbally only). No demonstration of his Notion
+  fallback (mentioned verbally only). No demonstration of their Notion
   notes (referenced but not opened). No Discord study call (described
   verbally; not occurring during the interview).
 
@@ -846,21 +846,21 @@ walkthrough only — included for completeness in §7.4.
   the interview room. Walkthrough was conducted by demonstrating
   **physical artefacts** to the camera, plus verbal reconstruction of
   the typical workflow.
-- **Artefact 1 — wall-plank.** P2 panned the camera to show the
-  inside of his room: globe, PC, and a wall-mounted **plank** with
+- **Artefact 1 — corkboard.** P2 panned the camera to show the
+  inside of their room: globe, PC, and a wall-mounted **corkboard** with
   hand-written formula notes positioned next to the desk
-  `[Interview2.md:133]`. He pointed out **colour-coded columns** for
+  `[Interview2.md:133]`. They pointed out **colour-coded columns** for
   different topic areas (physics-related items grouped together)
-  `[Interview2.md:137]`. He stated the plank is used as an **ambient
+  `[Interview2.md:137]`. They stated the corkboard is used as an **ambient
   retrieval cue**: "every time I pass, I can just read this and keep
   getting the context back" `[Interview2.md:133]`.
 - **Artefact 2 — handwritten tutorial sheet on eigenvalues /
-  determinants.** He showed an example sheet
+  determinants.** They showed an example sheet
   `[Interview2.md:329]`. Colour scheme observed:
   - **Blue** — body text / standard working
   - **Red** — highlighted important content
   - **Pencil** — footnotes / less-important annotations
-  He had copied content from a YouTube tutorial onto the sheet by hand.
+  They had copied content from a YouTube tutorial onto the sheet by hand.
 - **Verbal walkthrough — typical session.**
   - **Two-monitor split.** Lecture slides on one screen, tutorial on
     the other `[Interview2.md:315]`.
